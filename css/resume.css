@@ -58,7 +58,7 @@ p.lead {
   display: inline-block;
   height: 3.5rem;
   width: 3.5rem;
-  background-color: #06b86e;
+  background-color: #010a06;
   color: #fff !important;
   border-radius: 100%;
   text-align: center;
@@ -101,8 +101,8 @@ p.lead {
     left: 0;
     display: flex;
     flex-direction: column;
-    width: 17rem;
-    height: 100vh;
+    width: 200VH;
+    height: 15rem;
   }
   #sideNav .navbar-brand {
     display: flex;
@@ -122,13 +122,15 @@ p.lead {
     margin-bottom: auto;
   }
   #sideNav .navbar-collapse .navbar-nav {
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
   }
   #sideNav .navbar-collapse .navbar-nav .nav-item {
+    margin-left: 60px;
     display: block;
   }
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    margin-left: 60px;
     display: block;
   }
 }
@@ -160,7 +162,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #06b86e !important;
+  background-color: #f0e098 !important;
 }
 
 .text-primary {
